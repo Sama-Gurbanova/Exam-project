@@ -64,6 +64,9 @@
   border-radius: 5px;
   cursor: pointer;
 }
+#header .nav__button:hover {
+  background-color: orangered;
+}
 
 #main {
   width: 100%;
@@ -100,6 +103,9 @@
   color: #fff;
   font-size: 18px;
 }
+#main .button__first-button:hover {
+  background-color: orangered;
+}
 #main .button__second-button {
   padding: 20px 40px;
   background-color: #F4D3A1;
@@ -109,6 +115,9 @@
   color: #FF733B;
   font-size: 18px;
   font-weight: 400;
+}
+#main .button__second-button:hover {
+  background-color: rgb(230, 166, 142);
 }
 @media screen and (max-width: 575px) {
   #main .image {
